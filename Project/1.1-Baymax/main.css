@@ -1,0 +1,178 @@
+body{
+	background: #595959
+}
+
+#baymax{
+	/*设置为 居中*/
+	margin:0 auto;   /*定宽块级元素可以通过设置 margin:0 auto 来居中*/
+	height:600px;
+	width:500px;
+
+	/*隐藏溢出*/
+	overflow:hidden;
+
+	/*background: #333; /*测试添加*/*/
+}
+
+#head{
+	height:64px;
+	width:100px;
+
+    /*以百分比定义圆角的形状*/
+	border-radius: 50%;
+
+     /*背景*/
+	background: #fff;
+
+	/*设置居中*/
+ 	margin:0 auto;
+ 	margin-bottom: -20px;
+
+ 	border-bottom: 5px solid #e0e0e0;
+    
+    position: relative;
+ 	z-index: 100;  /*z-index 生效的前提条件是该元素是定位元素*/
+}
+
+#eye,#eye2{
+	width:11px;
+	height:13px;
+	background: #282828;
+	border-radius: 50%;
+	position:relative;
+	top:30px;   
+	left:27px;
+
+	transform: rotate(8deg);
+}
+
+#eye2{
+	transform: rotate(-8deg);
+	left:69px;
+	top:17px;   /*这里top不一样是因为relative是相对于自己来定位的，13+17=30*/
+}
+
+#mouth{
+	width: 38px;
+	height:1.5px;
+	background: #282828;
+	position: relative;
+	left:34px;
+	top:10px;
+}
+
+#torso,#belly{
+	margin: 0 auto;
+	height:200px;
+	width: 180px;
+	background: #fff;
+	border-radius: 47%;
+
+	/*设置边框*/
+	border:5px solid #e0e0e0;
+	border-top:none;
+
+	/*position: relative;*/
+	/*z-index:  -2;*/
+}
+
+#belly{
+	height:300px;
+	width:245px;
+	margin-top:-140px;
+	/*z-index:5;*/
+}
+
+#cover{
+	width:190px;
+	background: #fff;
+	height:150px;
+	margin:0 auto;
+	position: relative;
+	top:-20px;
+    border-radius: 50%;
+}
+
+#heart{
+	width:25px;
+	height: 25px;
+	border-radius: 50%;
+	position: relative;
+
+	box-shadow: 2px 5px 2px #ccc inset;
+
+	right:-115px;
+	top:40px;
+	z-index:111;
+	border:1px solid #ccc;
+}
+
+#left-arm,#right-arm{
+	height:270px;
+	width:120px;
+	border-radius: 50%;
+	background: #fff;
+	margin: 0 auto;
+	position: relative;
+	top:-350px;
+	left:-100px;
+	transform: rotate(20deg);
+	z-index:-1;
+}
+
+#right-arm{
+	transform: rotate(-20deg);
+	left:100px;
+	top:-620px;
+}
+
+#l-bigfinger,#r-bigfinger{
+	height:50px;
+	width:20px;
+	border-radius: 50%;
+	background: #fff;
+	position: relative;
+	top:250px;
+	left:50px;
+	transform: rotate(-50deg);
+}
+
+#r-bigfinger{
+	transform: rotate(50deg);
+    left:50px;
+}
+
+#l-smallfinger,#r-smallfinger{
+	 height:35px;
+	 width: 15px;
+	 border-radius: 50%;
+	 background: #fff;
+	 position: relative;
+	 top:195px;
+	 left:66px;
+	 transform: rotate(-40deg);
+}
+#r-smallfinger{
+	transform: rotate(40deg);
+	left:37px;
+}
+
+#left-leg,#right-leg{
+	height:170px;
+	width:90px;
+	border-radius: 40% 30% 10px 45%;
+	background: #fff;
+	position: relative;
+	top:-640px;
+	left:-45px;
+	transform: rotate(-1deg);
+	margin:0 auto;
+}
+
+#right-leg{
+	border-radius: 30% 40% 45% 10px;
+	margin:0 auto;
+	top:-810px;
+	left:50px;
+	transform: rotate(1deg);
+}
