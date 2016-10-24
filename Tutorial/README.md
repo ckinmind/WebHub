@@ -4,3 +4,4 @@
 |---|---|---|
 | [Tutorial-1：HTML+CSS基础课程](https://github.com/ckinmind/WebBook/tree/master/Tutorial/Tutorial-1) | 学习HTML、CSS样式基础知识 | ✔✔✔ |
 | [Tutorial-2：网页布局基础](https://github.com/ckinmind/WebBook/tree/master/Tutorial/Tutorial-2)|讲解CSS中三种定位机制|✔|
+| [Tutorial-3：学习CSS布局](https://github.com/ckinmind/WebBook/tree/master/Tutorial/Tutorial-3)|讲解css的布局相关的内容|✔✔✔✔|
