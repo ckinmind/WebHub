@@ -7,3 +7,6 @@
 | [Tutorial-3：学习CSS布局](https://github.com/ckinmind/WebBook/tree/master/Tutorial/Tutorial-3)|讲解css的布局相关的内容|✔✔✔✔|
 |[Tutorial-4：jQuery基础入门](https://github.com/ckinmind/WebBook/tree/master/Tutorial/Tutorial-4)|讲解jQuery基础|✔（不推荐）|
 |[Tutorial-5：jQuery基础 (一)—样式篇](http://www.imooc.com/learn/418)|介绍jQuery的基础语法，选择器以及jQuery的一些属性和样式|✔✔✔✔|
+|[Tutorial-6：jQuery基础(二)—DOM篇](http://www.imooc.com/learn/530)|  |  |
+|[Tutorial-7：jQuery基础(三)—事件篇](http://www.imooc.com/learn/429)|  |  |
+|[Tutorial-8：jQuery基础(四)—动画篇](http://www.imooc.com/learn/430)|  |  |
