@@ -55,7 +55,7 @@ body {
     position: relative;
     border-radius: 6px 6px 0 0;
     min-height: 360px;
-    background: url(laoluo.jpg) center no-repeat;
+    background: url(http://imghub.oss-cn-hangzhou.aliyuncs.com/forweb/laoluo.jpg) center no-repeat;
 }
 .info-quote {
     position: absolute;
