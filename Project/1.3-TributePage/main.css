@@ -1,0 +1,113 @@
+
+
+body {
+    background-color: #d4f2ec;
+}
+
+.container {
+    width:100%;
+    margin-bottom: 48px;
+}
+
+.top-title{
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.4em;
+    color: #47c9af;
+    font-family: 'Bad Script', 'cursive'
+}
+
+.top-title > span{
+    display: inline-block;
+    padding:0 0.5em;
+    background-color: #d4f2ec;
+}
+
+
+.top-title:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0.5em;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    border-top: 1px solid #47c9af;
+}
+
+.content {
+    padding:24px 0;
+    background-color: #00B16A;
+}
+
+.info-box {
+    margin:auto;
+    border-radius: 6px;
+    width:640px;
+    background-color: #FFFFFF;
+}
+
+.info-img {
+    position: relative;
+    border-radius: 6px 6px 0 0;
+    min-height: 360px;
+    background: url(laoluo.jpg) center no-repeat;
+}
+.info-quote {
+    position: absolute;
+    width:300px;
+    height:100px;
+    top:50%;
+    left:170px;
+
+    background-color: #444;
+}
+
+.info-people {
+    display:table;
+    width:100%;
+    position: relative;
+    margin:-40px 16px 0;
+}
+
+.info-avator {
+    /*float:left;*/
+    display: table-cell;
+    padding-right:16px;
+}
+
+.info-avator img {
+    padding:5px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.info-name {
+    vertical-align: middle;
+    display: table-cell;
+    width:100%;
+}
+.info-name p {
+    padding-top:22px;
+    font-size:42px;
+    font-weight:bold;
+    color:#489;
+}
+
+.info-msg {
+    margin:0 16px;
+    padding:20px;
+}
+
+.info-msg p {
+    font-weight:bold;
+}
+
+
+
+
+
