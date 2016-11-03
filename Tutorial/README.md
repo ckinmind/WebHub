@@ -11,3 +11,5 @@
 |[Tutorial-7：jQuery基础(三)—事件篇](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial-7)|  |  |
 |[Tutorial-8：jQuery基础(四)—动画篇](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial-8)|  |  |
 |[Tutorial-9：玩转Bootstrap（基础）](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial-9)|  |  |
+|[Tutorial-10：]()|  |  |
+|[Tutorial-11：JavaScript入门篇](http://www.imooc.com/learn/36)| js的略微启蒙 | ✔（不推荐） |
