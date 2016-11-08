@@ -1,4 +1,4 @@
-# Tribute Page
+# FreeCodeCamp: Tribute Page
 
 ### 教程信息
 
