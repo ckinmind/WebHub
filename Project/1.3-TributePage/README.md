@@ -1,6 +1,6 @@
 # FreeCodeCamp: Tribute Page
 
-### 教程信息
+### 一. 教程信息
 
 教程地址：
 >[FreeCoeCamp: Build a Tribute Page](https://www.freecodecamp.com/challenges/build-a-tribute-page)
