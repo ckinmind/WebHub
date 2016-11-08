@@ -9,6 +9,9 @@
 在线预览：
 >[RunJs: Baymax](http://runjs.cn/detail/lyqo4w4n)
 
+说明
+>实验楼上的一个教程，用css实现一个大白
+
 评价：
 >对相对定位有了更好的理解，很好的教程
 
