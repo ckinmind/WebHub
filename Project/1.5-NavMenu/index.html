@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>立体导航栏</title>
+<style>
+    body{
+        background: #ebebeb;
+    }
+    ul{margin:0;padding:0}
+    .nav{
+        width:560px;
+        height:50px;
+        font:bold 0/50px Arial;  /*此处font-size要设置为0，否则分隔线会有间隙，原因未知*/
+        text-align: center;
+        margin:40px auto 0;
+        background: #f65f57;
+        /*制作导航圆角*/
+        border-radius: 8px;
+        /*制作导航立体效果*/
+        box-shadow: 0 7px 0 #ba4a45;
+    }
+    .nav a{
+        display: inline-block;
+        /*-webkit-transition: all 0.2s ease-in;*/
+        /*-moz-transition: all 0.2s ease-in;*/
+        /*-o-transition: all 0.2s ease-in;*/
+        /*-ms-transition: all 0.2s ease-in;*/
+        transition: all 0.2s ease-in;
+    }
+    .nav a:hover{
+        /*-webkit-transform:rotate(10deg);*/
+        /*-moz-transform:rotate(10deg);*/
+        /*-o-transform:rotate(10deg);*/
+        /*-ms-transform:rotate(10deg);*/
+        transform:rotate(10deg);
+    }
+    .nav li{
+        position:relative;
+        display:inline-block;
+        padding:0 16px;
+        font-size:13px;
+        text-shadow:1px 2px 4px rgba(0,0,0,0.5);
+        /*list-style:none outside none;*/
+    }
+    /*制作导航分隔线效果*/
+    .nav li::before,
+    .nav li::after{
+        content:"";  /*即使没有内容，content的属性还是要写的，否则后面都不生效*/
+        position:absolute;
+        top:14px;
+        height: 25px;
+        width: 1px;   /*设置宽度为1*/
+        background:red;
+    }
+    .nav li::after{
+        right: 0;   /*和前面最左边的贴到一起*/
+        background: -moz-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,.2) 50%, rgba(255,255,255,0));
+        background: -webkit-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,.2) 50%, rgba(255,255,255,0));
+        background: -o-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,.2) 50%, rgba(255,255,255,0));
+        background: -ms-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,.2) 50%, rgba(255,255,255,0));
+        background: linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,.2) 50%, rgba(255,255,255,0));
+    }
+    .nav li::before{
+        left: 0;
+        background: -moz-linear-gradient(top, #ff625a, #9e3e3a 50%, #ff625a);
+        background: -webkit-linear-gradient(top, #ff625a, #9e3e3a 50%, #ff625a);
+        background: -o-linear-gradient(top, #ff625a, #9e3e3a 50%, #ff625a);
+        background: -ms-linear-gradient(top, #ff625a, #9e3e3a 50%, #ff625a);
+        background: linear-gradient(top, #ff625a, #9e3e3a 50%, #ff625a);
+    }
+    /*删除导航第一个导航项左边的分隔线*/
+    .nav li:first-child::before{
+        background: none;
+    }
+    /*删除导航最后一个导航右边的分隔线*/
+    .nav li:last-child::after{
+        background: none;
+    }
+
+    .nav a{
+        color:#fff;
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="">Home</a></li>
+        <li><a href="">About Me</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Resources</a></li>
+        <li><a href="">Contact Me</a></li>
+    </ul>
+</body>
+</html>
