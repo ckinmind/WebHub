@@ -6,6 +6,9 @@
 教程地址：
 >[慕课网：CSS3背景 制作导航菜单综合练习题](http://www.imooc.com/code/1881)
 
+在线预览：
+>[CodePen.io: Nav Menu](http://codepen.io/ckinmind/pen/ObVByZ)
+
 说明：
 >慕课网上的教程[十天精通CSS3](http://www.imooc.com/learn/33)中的一个练习题
 
