@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        #canvas{
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<canvas id="canvas" width="800" height="800"></canvas>
+</body>
+<script type="text/javascript">
+    window.onload = function(){
+        var canvas = document.getElementById('canvas');
+        var context = canvas.getContext('2d');
+        var piece = [
+            {start:{x:0, y:0},end:[{x:400, y:400}, {x:0, y:800}], color:"#04fe04"},
+            {start:{x:0, y:0},end:[{x:400, y:400}, {x:800, y:0}], color:"#fcfe04"},
+            {start:{x:400, y:400},end:[{x:600, y:200}, {x:800, y:400}, {x:600, y:600}], color:"#fc0204"},
+            {start:{x:600, y:200},end:[{x:800, y:0}, {x:800, y:400}], color:"#0402fc"},
+            {start:{x:400, y:400},end:[{x:200, y:600}, {x:600, y:600}], color:"#04fefc"},
+            {start:{x:0, y:800},end:[{x:200, y:600}, {x:600, y:600}, {x:400, y:800}], color:"#fc02fc"},
+            {start:{x:400, y:800},end:[{x:800, y:400}, {x:800, y:800}], color:"#fc8604"}
+        ]
+        for(var i = 0, len = piece.length; i<len; i++){
+            draw(piece[i], context);
+        }
+        function draw(piece, ctx){
+            ctx.beginPath();
+            ctx.moveTo(piece.start.x, piece.start.y);
+            for(var i = 0, len = piece.end.length; i<len; i++){
+                ctx.lineTo(piece.end[i].x, piece.end[i].y)
+            }
+            ctx.closePath();
+            ctx.fillStyle = piece.color;
+            ctx.fill();
+            ctx.strokeStyle = "#000";
+            ctx.lineWidth = 3;
+            ctx.stroke();
+
+        }
+    }
+</script>
+</html>
