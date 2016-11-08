@@ -1,6 +1,19 @@
 # 教程：Nav Menu （导航栏）
 
-### 学习笔记
+
+### 一. 教程信息
+
+教程地址：
+>[慕课网：CSS3背景 制作导航菜单综合练习题](http://www.imooc.com/code/1881)
+
+说明：
+>慕课网上的教程[十天精通CSS3](http://www.imooc.com/learn/33)中的一个练习题
+
+评价：
+>很好，重点学习了伪元素::before和::after的用法
+
+---
+### 二. 学习笔记
 ---
 #### 1. `font:bold 10px/50px Arial;` 
 ```
