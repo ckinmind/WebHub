@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            font-family:Arial;
+            font-size:23px;
+        }
+        .wrap{
+            width:70%;
+            height:200px;
+            margin:40px auto;
+            background-color:#fff;
+            position:relative;
+            /*-webkit-box-shadow: 20px 20px rgba(0,0,0,0.4), 0 0 20px rgba(0,0,0.0.6) inset;*/
+            /*-moz-box-shadow: 20px 20px rgba(0,0,0,0.4), 0 0 20px rgba(0,0,0.0.6) inset;*/
+            box-shadow: 0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1)inset;
+        }
+        .wrap h3{
+            text-align:center;
+            position:relative;
+            top:80px;
+        }
+
+        .wrap:after,
+        .wrap:before{
+            content:"";
+            position:absolute;
+            z-index:-1;
+            top:50%;
+            left:10px;
+            right:10px;
+            bottom:0;
+            border-radius: 100px/10px ;
+            box-shadow: 0 0 20px rgba(0,0,0,0.8);
+        }
+
+        /*三张图片*/
+        ul.box{
+            width:980px;
+            height:auto;
+            margin:20px auto;
+            padding:0;
+            /*clear: both;*/
+            overflow: hidden;
+            /*background:red;*/
+        }
+        ul.box li{
+            list-style-type:none;
+            margin:20px 10px;
+            padding:0;
+            width:300px;
+            height:220px;
+            border:2px solid #efefef;
+            position:relative;
+            float:left;
+            background:#fff;
+            /*line-height:220px;*/
+            /*font-size:32px;*/
+            /*text-align:center;*/
+
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+        }
+
+        ul.box li:before{
+            z-index:-2;
+            position: absolute;
+            background:transparent;
+            width:90%;
+            height:80%;
+            content:'';
+            left:20px;
+            bottom:8px;
+
+            transform:skew(-12deg) rotate(-4deg);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+        }
+        ul.box li:after{
+            z-index:-1;
+            position:absolute;
+            background:transparent;
+            width:90%;
+            height:80%;
+            content:'';
+            right:20px;
+            bottom:8px;
+
+
+            transform: skew(12deg) rotate(4deg);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+
+        }
+        ul.box li img{
+            width:290px;
+            height:220px;
+            padding:5px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+<div class="wrap">
+   <h3> Shadow Effect </h3>
+</div>
+<ul class="box">
+    <li><img src="http://imghub.oss-cn-hangzhou.aliyuncs.com/tc2/201611/photo1.jpg"/></li>
+    <li><img src="http://imghub.oss-cn-hangzhou.aliyuncs.com/tc2/201611/photo2.jpg"/></li>
+    <li><img src="http://imghub.oss-cn-hangzhou.aliyuncs.com/tc2/201611/photo3.jpg"/></li>
+</ul>
+
+</body>
+</html>
