@@ -8,4 +8,4 @@
 |[1.4-Tangram](https://github.com/ckinmind/WebHub/tree/master/Project/1.4-Tangram)|用canvas实现一个七巧板|源码仿照|✔✔|
 |[1.5-NavMenu](https://github.com/ckinmind/WebHub/tree/master/Project/1.5-NavMenu)|CSS3实现一个导航栏|源码仿照|✔✔✔|
 |[1.6-Shadow](https://github.com/ckinmind/WebHub/tree/master/Project/1.6-shadow)|CSS3 box-shadow实践|教程学习|✔✔✔|
-[1.6-Transform](https://github.com/ckinmind/WebHub/tree/master/Project/1.7-transform)|CSS3 Transform 实践|源码仿照|✔✔|
+|[1.7-Transform](https://github.com/ckinmind/WebHub/tree/master/Project/1.7-transform)|CSS3 Transform 实践|源码仿照|✔|
