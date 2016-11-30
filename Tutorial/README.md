@@ -13,3 +13,5 @@
 |[Tutorial-9：玩转Bootstrap（基础）](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial-9)|  |  |
 |[Tutorial-10：JavaScript 标准参考教程](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial-10)| 【阮一峰】文档教程 | ✔✔✔✔✔ |
 |[Tutorial-11：JavaScript入门篇](http://www.imooc.com/learn/36)| 【慕课网】边学边做 | ✔（不推荐） |
+|[Tutorial-12：十天精通CSS3](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial12)| 【慕课网】边学边做 | ✔✔|
+|[Tutorial-13：less即学即用](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial13)| 【慕课网】边学边做 | ✔✔✔ |
