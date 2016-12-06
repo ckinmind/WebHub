@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #outer {
+            width:500px;
+            margin:0 auto;
+            padding:0;
+            text-align:center;
+        }
+
+        #div1 {
+            width:100px;
+            height:100px;
+            background:black;
+            margin:10px auto;
+            display:block;
+        }
+
+    </style>
+</head>
+<body>
+<div id="outer">
+    <input type="button" value="变宽" />
+    <input type="button" value="变高" />
+    <input type="button" value="变色" />
+    <input type="button" value="隐藏" />
+    <input type="button" value="重置" />
+    <div id="div1"></div>
+</div>
+<script>
+    var changeStyle = function (elem, attr, value) {
+        elem.style[attr] = value
+    };
+    window.onload = function () {
+        var oBtn = document.getElementsByTagName("input");
+        var oDiv = document.getElementById("div1");
+        var oAtt = ["width","height","background","display","display"];
+        var oVal = ["200px","200px","red","none","block"];
+
+        for (var i = 0; i < oBtn.length; i++) {
+            oBtn[i].index = i;
+            oBtn[i].ckinmind = i;
+
+            console.log(oBtn[i].ckinmind);
+            oBtn[i].onclick = function () {
+                this.ckinmind == oBtn.length - 1 && (oDiv.style.cssText = "");
+                changeStyle(oDiv, oAtt[this.ckinmind], oVal[this.ckinmind])
+            }
+        }
+    };
+/*
+1.
+
+
+
+
+*/
+
+</script>
+</body>
+</html>
