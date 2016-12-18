@@ -16,4 +16,5 @@
 | [Tutorial-12：十天精通CSS3](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial12)| 【慕课网】边学边做 | ✔✔|
 | [Tutorial-13：less即学即用](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial13)| 【慕课网】边学边做 | ✔✔✔ |
 | [Tutorial-14：CSS Style Guide](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial14)| 【Github】规范学习 | ✔✔✔✔ |
-| [Tutorial-15：原生JavaScript案例学习](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial15)| 【其他网站】边学边做 | ✔✔✔✔✔（推荐） |
+| [Tutorial-15：原生JavaScript案例学习](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial15)| 【其他网站】边学边做 | ✔✔✔✔ |
+| [Tutorial-16：Sass入门篇](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial16)| 【慕课网】边学边做 | ✔✔ |
