@@ -1,0 +1,155 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M320 192l-320 384h192v256h256v-256h192l-320-384z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 640,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "arrow-up"
+        ],
+        "grid": 16
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 0,
+        "prevSize": 32,
+        "code": 59650,
+        "name": "arrow-up"
+      },
+      "setIdx": 0,
+      "setId": 4,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M736 0h-448c-52.8 0-96 43.2-96 96v832c0 52.8 43.2 96 96 96h448c52.8 0 96-43.2 96-96v-832c0-52.8-43.2-96-96-96zM384 48h256v32h-256v-32zM512 960c-35.346 0-64-28.654-64-64s28.654-64 64-64 64 28.654 64 64-28.654 64-64 64zM768 768h-512v-640h512v640z"
+        ],
+        "tags": [
+          "mobile",
+          "cell-phone",
+          "handheld"
+        ],
+        "defaultCode": 59736,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "mobile, cell-phone",
+        "name": "mobile",
+        "order": 7,
+        "id": 89,
+        "prevSize": 32,
+        "code": 59736
+      },
+      "setIdx": 3,
+      "setId": 1,
+      "iconIdx": 88
+    },
+    {
+      "icon": {
+        "paths": [
+          "M854 682v-512h-684v598l86-86h598zM854 86c46 0 84 38 84 84v512c0 46-38 86-84 86h-598l-170 170v-768c0-46 38-84 84-84h684z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "chat_bubble_outline"
+        ],
+        "grid": 24
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 0,
+        "name": "chat_bubble_outline",
+        "prevSize": 24,
+        "code": 59648
+      },
+      "setIdx": 1,
+      "setId": 3,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M331.429 263.429c0-31.429-20.571-52-52-52-30.857 0-62.286 20.571-62.286 52 0 30.857 31.429 51.429 62.286 51.429 31.429 0 52-20.571 52-51.429zM756 553.143c0-20.571-20.571-41.143-52-41.143-20.571 0-41.143 20.571-41.143 41.143 0 21.143 20.571 41.714 41.143 41.714 31.429 0 52-20.571 52-41.714zM621.143 263.429c0-31.429-20.571-52-51.429-52-31.429 0-62.286 20.571-62.286 52 0 30.857 30.857 51.429 62.286 51.429 30.857 0 51.429-20.571 51.429-51.429zM984 553.143c0-20.571-21.143-41.143-52-41.143-20.571 0-41.143 20.571-41.143 41.143 0 21.143 20.571 41.714 41.143 41.714 30.857 0 52-20.571 52-41.714zM832 326.286c-13.143-1.714-26.286-2.286-40-2.286-196.571 0-352 146.857-352 327.429 0 30.286 4.571 59.429 13.143 86.857-13.143 1.143-25.714 1.714-38.857 1.714-52 0-93.143-10.286-145.143-20.571l-144.571 72.571 41.143-124.571c-103.429-72.571-165.714-166.286-165.714-280 0-197.143 186.286-352 414.286-352 203.429 0 382.286 124 417.714 290.857zM1170.286 646.857c0 93.143-61.714 176-145.143 238.286l31.429 103.429-113.714-62.286c-41.714 10.286-83.429 21.143-124.571 21.143-197.143 0-352-134.857-352-300.571s154.857-300.571 352-300.571c186.286 0 352 134.857 352 300.571z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 1170,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "wechat",
+          "weixin"
+        ],
+        "grid": 14
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 8,
+        "id": 0,
+        "name": "wechat, weixin",
+        "prevSize": 28,
+        "code": 59649
+      },
+      "setIdx": 2,
+      "setId": 2,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 100,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

@@ -1,0 +1,77 @@
+
+
+$toolbar-size: 52px;
+.toolbar-item, .toolbar-btn, .toolbar-icon, .toolbar-text {
+    width: $toolbar-size;
+    height: $toolbar-size;
+}
+.toolbar-icon, .toolbar-text {
+    position: absolute;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    @include transition(top 1s);
+}
+
+.toolbar {
+    position: fixed;
+    left: 50%;
+    bottom: 5px;
+    margin-left: -$toolbar-size / 2;
+}
+.toolbar-item {
+    position: relative;
+    display: block;
+    margin-top: 1px;
+
+    &:hover {
+        .toolbar-icon {
+            top: -$toolbar-size;
+        }
+        .toolbar-text {
+            top: 0;
+        }
+        .toolbar-layer {
+            @include opacity(1);
+            @include transform-scale(1);
+        }
+    }
+}
+.toolbar-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.toolbar-icon {
+    top: 0;
+    background-color: #d0d6d9;
+    font-size: 30px;
+    line-height: $toolbar-size;
+}
+.toolbar-text {
+    top: $toolbar-size;
+    background-color: #98a1a6;
+    padding-top: 12px;
+    font-size: 12px;
+    line-height: 1.2;
+}
+.toolbar-layer {
+    position: absolute;
+    right: $toolbar-size - 6;
+    bottom: -10px;
+    width: 172px;
+    background: url(../img/toolbar_img.png) no-repeat;
+    @include opacity(0);
+    @include transform-origin(95% 95%);
+    @include transform-scale(0.01);
+    @include transition(all 1s);
+}
+.toolbar-layer-weixin {
+    height: 212px;
+    background-position: 0 0;
+}
+.toolbar-layer-app {
+    height: 194px;
+    background-position: 0 -222px;
+}
