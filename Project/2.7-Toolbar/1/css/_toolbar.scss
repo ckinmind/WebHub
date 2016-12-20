@@ -1,0 +1,75 @@
+@mixin background-position($pos, $hover-pos) {
+    background-position: 0 $pos;
+    &:hover {
+        background-position: 0 $hover-pos;
+    }
+}
+
+// star 变量定义
+$toolbar-size: 52px;
+// end 变量定义
+
+.toolbar {
+    position: fixed;
+    left: 50%;
+    bottom: 5px;
+    margin-left: -$toolbar-size / 2;
+}
+
+.toolbar-item,
+.toolbar-layer {
+    background: url(../img/toolbar.png) no-repeat;
+}
+
+.toolbar-item {
+    position: relative;
+    display: block;
+    width: $toolbar-size;
+    height: $toolbar-size;
+    margin-top: 1px;
+    @include transition(background-position 1s);
+
+    &:hover {
+        .toolbar-layer {
+            @include opacity(1);
+            @include transform-scale(1);
+        }
+    }
+}
+
+.toolbar-item-weixin {
+    @include background-position(-798px, -860px);
+
+    .toolbar-layer {
+        height: 212px;
+        background-position: 0 0;
+    }
+}
+
+.toolbar-item-feedback {
+    @include background-position(-426px, -488px);
+}
+
+.toolbar-item-app {
+    @include background-position(-550px, -612px);
+
+    .toolbar-layer {
+        height: 194px;
+        background-position: 0 -222px;
+    }
+}
+
+.toolbar-item-top {
+    @include background-position(-674px, -736px);
+}
+
+.toolbar-layer {
+    position: absolute;
+    right: $toolbar-size - 6;
+    bottom: -10px;
+    width: 172px;
+    @include opacity(0);
+    @include transform-origin(95% 95%);
+    @include transform-scale(0);
+    @include transition( all 1s);
+}
