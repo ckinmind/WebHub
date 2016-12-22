@@ -1,0 +1,70 @@
+
+/*reset*/
+body,ul,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+
+
+
+body {
+    padding: 20px;
+    font-family: "微软雅黑";
+    font-size: 15px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 20px;
+    background: #eee;
+    border: 1px solid #999;
+    overflow: auto;
+    min-width: 600px;
+}
+
+/* 左边 */
+.left {
+    box-sizing: border-box;
+    float: left;
+    padding: 20px;
+    width: 200px;
+    background: #fff;
+    border: 1px solid #999;
+}
+
+.left .logo {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.left .name {
+    width: 180px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 右边*/
+.right {
+    box-sizing: border-box;
+    width: 120px;
+    float: right;
+    background: #fff;
+    border: 1px solid #999;
+}
+
+.right > img {
+    width:80px;
+    height:80px;
+    background: #fff;
+    display: block;
+    margin: 20px;
+    border: 1px solid #999;
+}
+
+.middle {
+    overflow:hidden;
+    padding: 20px;
+    margin-left: 220px;
+    margin-right: 140px;
+    background: #fff;
+    border: 1px solid #999;
+}
