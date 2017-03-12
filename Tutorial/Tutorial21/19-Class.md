@@ -233,4 +233,3 @@ printName(); // TypeError: Cannot read property 'print' of undefined
 ---
 ### 10. Mixin模式的实现
 - Mixin模式指的是，将多个类的接口“混入”（mix in）另一个类
-- 
