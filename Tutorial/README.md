@@ -19,7 +19,7 @@
 | [Tutorial-15：原生JavaScript案例学习](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial15)| 【其他网站】边学边做 | ✔✔✔✔ |
 | [Tutorial-16：Sass入门篇](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial16)| 【慕课网】文档教程 | ✔✔ |
 | [Tutorial-17：Sass进阶篇](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial17)| 【慕课网】文档教程 | ✔✔ |
-| [Tutorial-18：网易 NEC](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial18)| 网易 | ✔✔ |
+| [Tutorial-18：网易 NEC](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial18)|【网易】 | ✔✔ |
 | [Tutorial-19：张鑫旭：CSS深入理解之](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial19)|【慕课网】视频教程 |✔✔✔ |
 | [Tutorial-20：小教程集合](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial20)|【其他网站】 | ✔✔✔ |
-| [Tutorial-21：ECMAScript 6 入门](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial21)| 阮一峰 | ✔✔✔✔✔ |
+| [Tutorial-21：ECMAScript 6 入门](https://github.com/ckinmind/WebHub/tree/master/Tutorial/Tutorial21)|【阮一峰】| ✔✔✔✔✔ |
